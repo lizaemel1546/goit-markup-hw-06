@@ -172,4 +172,8 @@
   .footer-input {
     width: 264px;
   }
+
+  .footer-form {
+    flex-direction: row;
+  }
 }
