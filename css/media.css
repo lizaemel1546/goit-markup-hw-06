@@ -13,6 +13,10 @@
     padding-top: 96px;
     padding-bottom: 96px;
   }
+  .advantages-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   .advantages-subtitle {
     text-align: left;
@@ -23,18 +27,18 @@
   }
 
   .advantages-item {
-    width: calc((100% - 24px) / 2);
+    width: calc((100% - 54px) / 2);
   }
 
   .team-list {
-    gap: 24px;
-  }
-  .team-list-item {
-    width: calc((100% - 24px) / 2);
+    gap: 64px 24px;
+
+    justify-content: center;
   }
 
   .customers-list {
     gap: 72px 24px;
+    justify-content: center;
   }
 
   .customers-item-link {
@@ -42,15 +46,35 @@
   }
 
   .customers-item {
-    width: calc((100% - 48px) / 3);
+    width: 168px;
+    height: 88px;
   }
 
   .footer-container {
     display: flex;
+    max-width: 584px;
+    flex-wrap: wrap;
   }
 
   .footer-container-logo {
     margin-right: 24px;
+    align-items: start;
+  }
+
+  .footer-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .footer-input {
+    width: 264px;
+  }
+
+  .footer-subscribe {
+    align-items: start;
+  }
+
+  .footer-link-container {
     align-items: start;
   }
 }
@@ -175,5 +199,6 @@
 
   .footer-form {
     flex-direction: row;
+    gap: 24px;
   }
 }
