@@ -320,6 +320,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
+  justify-content: center;
 }
 
 .team-link-item {
@@ -407,7 +408,7 @@ body {
 
 .customers-list {
   display: flex;
-  flex-direction: row;
+
   align-items: center;
   flex-wrap: wrap;
   gap: 72px 16px;
@@ -445,7 +446,7 @@ body {
 }
 
 .customers-item {
-  width: 190;
+  width: 190px;
   height: 88px;
 }
 
@@ -459,8 +460,8 @@ body {
 
 .footer-container-logo {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+
+  justify-content: center;
 }
 
 .footer-logo {
