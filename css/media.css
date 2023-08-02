@@ -1,3 +1,9 @@
+@media screen and (max-width: 427px) {
+  .mob-address-num {
+    font-size: 24px;
+  }
+}
+
 @media screen and (min-width: 428px) {
   .container {
     max-width: 428px;
@@ -64,6 +70,7 @@
     font-size: 56px;
     letter-spacing: 0.72px;
     line-height: 1.07;
+    max-width: 496px;
   }
 
   .hero-btn {
@@ -120,6 +127,7 @@
   .footer-container-logo {
     margin-right: 24px;
     align-items: start;
+    margin-bottom: 0;
   }
 
   .footer-form {
@@ -137,6 +145,7 @@
 
   .footer-link-container {
     align-items: start;
+    margin-bottom: 0;
   }
 
   .modal {
@@ -214,6 +223,7 @@
     font-size: 56px;
     letter-spacing: 0.72px;
     line-height: 1.07;
+    max-width: 496px;
   }
 
   .advantages-item {
@@ -311,10 +321,12 @@
   .footer-container-logo {
     margin-right: 120px;
     align-items: start;
+    margin-bottom: 0;
   }
 
   .footer-link-container {
     align-items: start;
+    margin-bottom: 0;
   }
 
   .footer-text-two {
