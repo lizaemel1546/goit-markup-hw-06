@@ -6,7 +6,7 @@
 
 @media screen and (min-width: 428px) {
   .container {
-    max-width: 428px;
+    max-width: 426px;
   }
 }
 
@@ -54,7 +54,7 @@
     max-width: 1440px;
   }
 
-  @media (min-devise-pixel-ratio: 2),
+  @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
@@ -120,7 +120,7 @@
 
   .footer-container {
     display: flex;
-    max-width: 584px;
+    max-width: 582px;
     flex-wrap: wrap;
   }
 
@@ -203,7 +203,7 @@
       url(../images/img-name.jpg);
   }
 
-  @media (min-devise-pixel-ratio: 2),
+  @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {

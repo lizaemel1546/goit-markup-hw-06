@@ -334,7 +334,7 @@ body {
   margin-right: auto;
 }
 
-@media (min-devise-pixel-ratio: 2),
+@media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
@@ -956,6 +956,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  max-width: 392px;
   width: 90%;
   min-height: 584px;
   background: #fcfcfc;
